@@ -61,9 +61,6 @@
 7. Verify Networking
     - Check Private IP:
     - hostname -I
-    - Check Public IP:
-    - curl -s http://checkip.amazonaws.com
-
 ![image](https://github.com/user-attachments/assets/6fc85d08-bfcb-4b32-a39f-064a880fc6c6)
 ### From VM1 to connect to VM2
 
