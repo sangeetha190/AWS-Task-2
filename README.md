@@ -7,7 +7,7 @@
     - IPv4 CIDR Block: 10.0.0.0/16
     - Tenancy: Default
     - Click Create VPC.
-![image](https://github.com/user-attachments/assets/070f9e5b-7564-4634-9da9-e38ffd7037a3)
+    ![image](https://github.com/user-attachments/assets/070f9e5b-7564-4634-9da9-e38ffd7037a3)
 2. Create Public and Private Subnets
   - Go to VPC Dashboard → Subnets.
   - Click Create Subnet.
@@ -32,10 +32,14 @@
   - Select VPC: MyVPC.
   - Enter Route Table Name: PublicRouteTable.
   - Click Create.
+    ![image](https://github.com/user-attachments/assets/d37d9790-39ab-4534-b0f7-729c9a20d303)
+    ![image](https://github.com/user-attachments/assets/c73c999c-62bc-467b-9cb6-fd4fb61c898b)
+
   - Select PublicRouteTable, go to Routes, click Edit Routes, and add:
     - Destination: 0.0.0.0/0
     - Target: Internet Gateway (IGW)
     - Click Save Routes.
+    ![image](https://github.com/user-attachments/assets/9a81b9ce-b87b-4468-84da-5b51cb1c92a7)
  - Associate this route table with PublicSubnet under the Subnet Associations tab.
  - For Private Route Table:
  - Repeat steps 2-5, but name it PrivateRouteTable.
@@ -44,8 +48,8 @@
 4. Create an Internet Gateway (IGW)  
   - Go to Internet Gateways.
   - Click Create Internet Gateway.
-![image](https://github.com/user-attachments/assets/ef0c7d1e-f3d6-4f66-8600-c58dfdc76e5b)
-![image](https://github.com/user-attachments/assets/9bff4e59-bea0-439a-a5e7-1ee30679ecf9)
+  ![image](https://github.com/user-attachments/assets/ef0c7d1e-f3d6-4f66-8600-c58dfdc76e5b)
+  ![image](https://github.com/user-attachments/assets/9bff4e59-bea0-439a-a5e7-1ee30679ecf9)
   - Enter Name: MyIGW.
   - Click Create and then Attach to VPC → Select MyVPC.
 ![image](https://github.com/user-attachments/assets/7beeedd7-7fe1-4279-974c-c8fe19a72425)
