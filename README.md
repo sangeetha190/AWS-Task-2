@@ -87,14 +87,16 @@
   - Navigate to EC2 → Instances → Launch Instance.
     - Choose Amazon Linux 2 as the AMI.
     - Select an Instance Type (e.g., t2.micro).
+    - ![image](https://github.com/user-attachments/assets/7ecc565b-de67-4cda-8f45-d0f4cf427b72)
     - Configure Network Settings:
     - VPC: MyVPC
-    - Subnet: PublicSubnet
+    - Subnet: MyPublicSubnet
     - Auto-assign Public IP: Enable
     - Add Storage, Tags, and Security Group (allow SSH 22, HTTP 80 if needed).
     - Select Existing Key Pair or Create a New One.
     - Click Launch Instance.
-   
+    - ![image](https://github.com/user-attachments/assets/6a2e5e35-383e-4b95-adb0-1ae1446d000e)
+
 6. Connect to the EC2 Instance
     - Open a terminal and run:
     - ssh -i "SangeethaCloud01.pem" ec2-user@<Public-IP>
