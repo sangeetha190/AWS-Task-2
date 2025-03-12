@@ -7,6 +7,7 @@
     - IPv4 CIDR Block: 10.0.0.0/16
     - Tenancy: Default
     - Click Create VPC.
+![image](https://github.com/user-attachments/assets/070f9e5b-7564-4634-9da9-e38ffd7037a3)
 2. Create Public and Private Subnets
   - Go to VPC Dashboard → Subnets.
   - Click Create Subnet.
