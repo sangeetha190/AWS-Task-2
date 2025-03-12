@@ -120,17 +120,17 @@
          - ec2-user@13.203.65.79:~/ → Destination (your Public EC2 instance).
          -  ![image](https://github.com/user-attachments/assets/ebec60ac-5495-4944-b218-27f49df31ea3)
          - Verify the connection.
-    ![image](https://github.com/user-attachments/assets/c11dc80e-b69c-4842-a813-f3fbbcd44315)
 
-
-
- ![image](https://github.com/user-attachments/assets/dc87fe4e-d0e6-445e-99e9-5b069933fab4)
 
 
 7. Verify Networking
     - Check Private IP:
     - hostname -I
-![image](https://github.com/user-attachments/assets/6fc85d08-bfcb-4b32-a39f-064a880fc6c6)
+    - ![image](https://github.com/user-attachments/assets/c11dc80e-b69c-4842-a813-f3fbbcd44315)
+
+
+
+ ![image](https://github.com/user-attachments/assets/dc87fe4e-d0e6-445e-99e9-5b069933fab4)
 ### From VM1 to connect to VM2
 
 ## This version makes it clearer that:
