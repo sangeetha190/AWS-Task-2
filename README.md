@@ -112,11 +112,21 @@
     - ![image](https://github.com/user-attachments/assets/e62c510f-d5ba-4382-93aa-2db68953f197)
 
 6. Connect to the EC2 Instance
-    ![image](https://github.com/user-attachments/assets/dc87fe4e-d0e6-445e-99e9-5b069933fab4)
-
     - Open a terminal and run:
     - ssh -i "SangeethaCloud01.pem" ec2-user@<Public-IP>
-    - Verify the connection.
+         - scp → Secure Copy Protocol (SCP) to transfer files.
+         - -i SangeethaCloud01.pem → Uses the private key for authentication.
+         - SangeethaCloud01.pem → The file to transfer (your SSH key).
+         - ec2-user@13.203.65.79:~/ → Destination (your Public EC2 instance).
+         -  ![image](https://github.com/user-attachments/assets/ebec60ac-5495-4944-b218-27f49df31ea3)
+         - Verify the connection.
+    ![image](https://github.com/user-attachments/assets/c11dc80e-b69c-4842-a813-f3fbbcd44315)
+
+
+
+ ![image](https://github.com/user-attachments/assets/dc87fe4e-d0e6-445e-99e9-5b069933fab4)
+
+
 7. Verify Networking
     - Check Private IP:
     - hostname -I
