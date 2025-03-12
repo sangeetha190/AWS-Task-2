@@ -138,4 +138,5 @@
    - Private subnet instances cannot be accessed directly and require a bastion host (jump server) for connectivity.
 
 
+![image](https://github.com/user-attachments/assets/36248d5b-8252-4fee-9bdb-30fb08dc2d48)
 
