@@ -111,7 +111,13 @@
     - Click Launch Instance.
     - ![image](https://github.com/user-attachments/assets/e62c510f-d5ba-4382-93aa-2db68953f197)
 
-6. Connect to the EC2 Instance
+
+6. Now Connect to EC2 instance using the putty
+   
+     -  ![image](https://github.com/user-attachments/assets/dc87fe4e-d0e6-445e-99e9-5b069933fab4)
+  
+      
+7. Connect to the EC2 Instance
     - Open a terminal and run:
     - ssh -i "SangeethaCloud01.pem" ec2-user@<Public-IP>
          - scp → Secure Copy Protocol (SCP) to transfer files.
@@ -130,7 +136,7 @@
 
 
 
- ![image](https://github.com/user-attachments/assets/dc87fe4e-d0e6-445e-99e9-5b069933fab4)
+
 ### From VM1 to connect to VM2
 
 ## This version makes it clearer that:
@@ -138,5 +144,4 @@
    - Private subnet instances cannot be accessed directly and require a bastion host (jump server) for connectivity.
 
 
-![image](https://github.com/user-attachments/assets/36248d5b-8252-4fee-9bdb-30fb08dc2d48)
 
