@@ -14,14 +14,18 @@
   - Select VPC: MyVPC.
      - Create two subnets:
      - Public Subnet
-     - Name: PublicSubnet
+     - Name: MyPublicSubnet
      - CIDR Block: 10.0.1.0/24
      - Availability Zone: Select any AZ
+       ![image](https://github.com/user-attachments/assets/6b9e3fcd-36f3-421b-b92c-a9aa16450c76)
+
   - Private Subnet
-    - Name: PrivateSubnet
+    - Name: MyPrivateSubnet
     - CIDR Block: 10.0.2.0/24
     - Availability Zone: Same or different AZ
     - Click Create Subnet.
+      ![Screenshot 2025-03-12 111200](https://github.com/user-attachments/assets/210e4093-3ccf-4159-8667-a6f8c2203703)
+
 3. Create Route Tables
   - Navigate to Route Tables.
   - Click Create Route Table.
