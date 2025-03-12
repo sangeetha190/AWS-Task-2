@@ -43,6 +43,8 @@
  - Associate this route table with PublicSubnet under the Subnet Associations tab.
  - For Private Route Table:
  - Repeat steps 2-5, but name it PrivateRouteTable.
+ - ![image](https://github.com/user-attachments/assets/1bbaa245-4137-42f7-a813-6598c7f8ca00)
+ - ![image](https://github.com/user-attachments/assets/c93e09b8-22d0-425e-a8cd-c221a54a1685)
  - Do not add an internet route; just keep the default route.
  - Associate this route table with PrivateSubnet.
 4. Create an Internet Gateway (IGW)  
@@ -110,6 +112,8 @@
     - ![image](https://github.com/user-attachments/assets/e62c510f-d5ba-4382-93aa-2db68953f197)
 
 6. Connect to the EC2 Instance
+    ![image](https://github.com/user-attachments/assets/dc87fe4e-d0e6-445e-99e9-5b069933fab4)
+
     - Open a terminal and run:
     - ssh -i "SangeethaCloud01.pem" ec2-user@<Public-IP>
     - Verify the connection.
