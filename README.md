@@ -44,8 +44,11 @@
 4. Create an Internet Gateway (IGW)  
   - Go to Internet Gateways.
   - Click Create Internet Gateway.
+![image](https://github.com/user-attachments/assets/ef0c7d1e-f3d6-4f66-8600-c58dfdc76e5b)
+![image](https://github.com/user-attachments/assets/9bff4e59-bea0-439a-a5e7-1ee30679ecf9)
   - Enter Name: MyIGW.
   - Click Create and then Attach to VPC → Select MyVPC.
+![image](https://github.com/user-attachments/assets/7beeedd7-7fe1-4279-974c-c8fe19a72425)
   - Confirm attachment.
 5. Launch EC2 Instance in Public Subnet
   - Navigate to EC2 → Instances → Launch Instance.
