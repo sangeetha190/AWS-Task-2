@@ -113,10 +113,13 @@
 
 
 6. Now Connect to EC2 instance using the putty
-   
-     -  ![image](https://github.com/user-attachments/assets/dc87fe4e-d0e6-445e-99e9-5b069933fab4)
-  
-      
+      - You can now connect using PuTTY:
+      - Open PuTTY.
+      - Enter the Public IP: 13.203.65.79.
+      - Go to SSH → Auth and load your private key (.pem converted to .ppk).
+      - Click Open and log in as ec2-user.
+      -  ![image](https://github.com/user-attachments/assets/dc87fe4e-d0e6-445e-99e9-5b069933fab4)
+        
 7. Connect to the EC2 Instance
     - Open a terminal and run:
     - ssh -i "SangeethaCloud01.pem" ec2-user@<Public-IP>
@@ -126,10 +129,8 @@
          - ec2-user@13.203.65.79:~/ → Destination (your Public EC2 instance).
          -  ![image](https://github.com/user-attachments/assets/ebec60ac-5495-4944-b218-27f49df31ea3)
          - Verify the connection.
-
-
-
-7. Verify Networking
+           
+8. Verify Networking
     - Check Private IP:
     - hostname -I
     - ![image](https://github.com/user-attachments/assets/c11dc80e-b69c-4842-a813-f3fbbcd44315)
