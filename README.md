@@ -96,6 +96,18 @@
     - Select Existing Key Pair or Create a New One.
     - Click Launch Instance.
     - ![image](https://github.com/user-attachments/assets/6a2e5e35-383e-4b95-adb0-1ae1446d000e)
+    - Navigate to EC2 → Instances → Launch Instance.
+    - Choose Amazon Linux 2 as the AMI.
+    - Select an Instance Type (e.g., t2.micro).
+    - ![image](https://github.com/user-attachments/assets/af40f801-7a91-4260-be5a-b3ede725eb08)
+    - Configure Network Settings:
+    - VPC: MyVPC
+    - Subnet: MyPrivateSubnet
+    - Auto-assign Public IP: disable
+    - Add Storage, Tags, and Security Group (allow SSH 22, HTTP 80 if needed).
+    - Select Existing Key Pair or Create a New One.
+    - Click Launch Instance.
+    - ![image](https://github.com/user-attachments/assets/e62c510f-d5ba-4382-93aa-2db68953f197)
 
 6. Connect to the EC2 Instance
     - Open a terminal and run:
