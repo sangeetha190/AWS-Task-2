@@ -52,8 +52,37 @@
   ![image](https://github.com/user-attachments/assets/9bff4e59-bea0-439a-a5e7-1ee30679ecf9)
   - Enter Name: MyIGW.
   - Click Create and then Attach to VPC → Select MyVPC.
-![image](https://github.com/user-attachments/assets/7beeedd7-7fe1-4279-974c-c8fe19a72425)
+  ![image](https://github.com/user-attachments/assets/7beeedd7-7fe1-4279-974c-c8fe19a72425)
   - Confirm attachment.
+5. Security Group Name:
+   - Name: PublicEC2Security(Note: The name cannot be edited after creation.)
+   - Description: PublicEC2Security
+   - Select the VPC: vpc-04077d3839efc13fe (MyVPC)
+   - Inbound Rules:
+     - Add Rule:
+     - Type: SSH
+     - Protocol: TCP
+     - Port Range: 22
+     - Source: Anywhere-IPv4 (0.0.0.0/0)(This allows SSH access from anywhere.)
+     - Optional:
+       - You can click Add rule if you want to add additional rules (e.g., HTTP on port 80).
+     - Click Create security group.
+     ![image](https://github.com/user-attachments/assets/8ee1bfbd-acf1-404b-a66b-f0c93b93567a)
+
+   - Name: PrivateEC2Security(Note: The name cannot be edited after creation.)
+   - Description: PrivateEC2Security
+   - Select the VPC: vpc-04077d3839efc13fe (MyVPC)
+   - Inbound Rules:
+     - Add Rule:
+     - Type: SSH
+     - Protocol: TCP
+     - Port Range: 22
+     - Source: Anywhere-IPv4 (0.0.0.0/0)(This allows SSH access from anywhere.)
+     - Optional:
+       - You can click Add rule if you want to add additional rules (e.g., HTTP on port 80).
+     - Click Create security group.
+    ![image](https://github.com/user-attachments/assets/cbb07a74-8d40-4c4b-9d4b-e3cb74fcbe61)
+
 5. Launch EC2 Instance in Public Subnet
   - Navigate to EC2 → Instances → Launch Instance.
     - Choose Amazon Linux 2 as the AMI.
